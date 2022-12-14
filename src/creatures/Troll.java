@@ -25,6 +25,7 @@ public class Troll implements Thinkable, Rowable {
     @Override
     public void row(Boat boat) {
         System.out.println(this.name + " гребет в " + boat.getName());
+        boat.sail();
     }
 
     public void look(PhysicalObject object) {

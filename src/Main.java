@@ -19,8 +19,8 @@ public class Main {
         SmokingPipe pipe = new SmokingPipe();
         pipe.setName("Трубка");
 
-        env.setWhether(Environment.Whether.CALM);
-        env.setTime(Environment.TimeOfDay.NIGHT);
+        env.setWhether(Whether.CALM);
+        env.setTime(TimeOfDay.NIGHT);
 
         snusmumrik.ownAccessory(hat);
         mumitroll.ownAccessory(pipe);

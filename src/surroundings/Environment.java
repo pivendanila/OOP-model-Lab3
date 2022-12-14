@@ -1,40 +1,11 @@
 package surroundings;
 
-import objects.Hat;
-
 import java.util.Objects;
 
 public class Environment{
     private TimeOfDay _Time;
     private Whether _Whether;
-    public enum TimeOfDay{
-        MORNING ("Утро"),
-        DAY ("День"),
-        EVENING ("Вечер"),
-        NIGHT ("Ночь");
-        private final String time;
-        TimeOfDay(String t){
-            time = t;
-        }
-        @Override
-        public String toString(){
-            return time;
-        }
-    }
-    public enum Whether{
-        CALM ("Штиль"),
-        WINDY ("Ветренно"),
-        RAINY ("Дождливо"),
-        SNOWY ("Снежно");
-        private final String whether;
-        Whether(String w){
-            whether = w;
-        }
-        @Override
-        public String toString(){
-            return whether;
-        }
-    }
+
     public void setTime(TimeOfDay time){
         _Time = time;
     }
