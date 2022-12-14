@@ -1,6 +1,15 @@
 package objects;
 
 public class Boat extends PhysicalObject{
+    private String size;
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+    public String getSize() {
+        return size;
+    }
+
     public void sail(){
         System.out.println(this.name + " плывет");
     }

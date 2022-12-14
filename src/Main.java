@@ -11,6 +11,7 @@ public class Main {
 
         Boat boat = new Boat();
         boat.setName("Лодка");
+        boat.setSize("Маленькая");
 
         Hat hat = new Hat();
         hat.setName("Шляпа");
